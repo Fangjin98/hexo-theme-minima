@@ -117,7 +117,10 @@
         <%- partial('partial/header') %>
         <div class="trans">
           <%- body %>
-          <%- partial('partial/footer') %>
+          <% if(is_home()){ %>
+             <%- partial('partial/footer') %> 
+          <% } %>
+          
         </div>
       </div>
 
