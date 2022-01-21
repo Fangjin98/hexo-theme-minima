@@ -311,6 +311,10 @@ body.darkmode {
   text-align: center;
 }
 
+#counter {
+  text-align: center;
+}
+
 .posisi {
   text-align: center;
 }
@@ -325,6 +329,10 @@ body.darkmode {
   }
 
   #madewith {
+    text-align: left;
+  }
+
+  #counter {
     text-align: left;
   }
 
