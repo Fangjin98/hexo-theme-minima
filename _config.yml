@@ -4,10 +4,10 @@ title: "Hi Guys."
 #main info
 #owner
 owner: "I am Jin Fang"
-# email: Fangjin98@outlook.com
+email: Fangjin98@outlook.com
 info: "A CS student in USTC."
 #description
-desc: ""
+desc: "My research interest lies in the field of distributed systems and computer networks. Currently I am working on programmable networks."
 
 #menu
 menu:
@@ -27,10 +27,10 @@ usercss: css/user.css
 
 # social profile at the footer/bottom
 footer: true
-placename: USTC
-placelink: https://sz.ustc.edu.cn/
+placename: USTC-INT
+placelink: http://staff.ustc.edu.cn/~xuhongli/int/
 github: https://github.com/Fangjin98
-counter: true
+counter: false
 # Misc
 nanobar: /js/nanobar.min.js
 switch_light: 🌑
