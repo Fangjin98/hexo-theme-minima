@@ -1,11 +1,11 @@
 #title in header
-title: "Hi Guys."
+title: "Hello World."
 
 #main info
 #owner
 owner: "I am Jin Fang"
 email:
-info: "A CS student in USTC."
+info: "A PhD student in USTC."
 #description
 desc: "My research interest lies in the field of distributed systems and computer networks. Currently I am working on programmable networks."
 
