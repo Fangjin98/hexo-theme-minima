@@ -38,7 +38,7 @@ img {
   max-width: 100%;
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  box-shadow: none;
   margin-bottom: 1%;
 }
 
@@ -249,6 +249,9 @@ a.footer-link:focus {
 
 .github {
   fill: #63636F;
+}
+.outlook{
+  fill: #0078D4;
 }
 .linkedin {
   fill: #0073b1;
