@@ -4,18 +4,20 @@ title: "Hello World."
 #main info
 #owner
 owner: "I am Jin Fang"
-email:
-info: "A PhD student in USTC. Before that, I received my bachelor's degree from Hunan University (HNU)."
+# email:
+info: "A PhD student in USTC."
 #description
-desc: "My research interest lies in the field of distributed systems and computer networks. Currently I am working on programmable networks."
+desc: "My research interest lies in the field of software-defined networking (SDN), distributed training systems and programmable networks."
 
 #menu
 menu:
   Resume: /resume
+  Posts: /archives
 
 #index/main page max show posts (in number)
-max_post: 4
+max_post: 3
 
+max_news: 3
 # Colors use hex color without #
 # Theme color
 tcolor: 0FA0CE
