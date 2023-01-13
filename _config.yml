@@ -15,9 +15,8 @@ menu:
   Posts: /archives
 
 #index/main page max show posts (in number)
-max_post: 3
+max_post: 6
 
-max_news: 3
 # Colors use hex color without #
 # Theme color
 tcolor: 0FA0CE
