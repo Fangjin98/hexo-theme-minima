@@ -2,12 +2,16 @@
 title: "Hello World."
 
 #main info
+
 #owner
-owner: "I am Jin Fang"
+owner: "I am (Joey) Jin Fang"
 # email:
-info: "A PhD student in USTC."
+info: "A PhD student, a coder, a powerlifting amateur..."
 #description
-desc: "My research interest lies in the field of software-defined networking (SDN), distributed training systems and programmable networks."
+desc: "My research interest lies in software-defined networking, distributed training system and programmable network.
+
+In my spare time, I write C# and Swift codes.  Hoping my powerlifting record can reach 1323 lbs  (891 lbs at 2022.10.1) during my Ph.D.
+"
 
 #menu
 menu:
