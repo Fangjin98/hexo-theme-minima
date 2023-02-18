@@ -33,7 +33,7 @@ usercss: css/user.css
 # social profile at the footer/bottom
 footer: true
 placename: USTC-INT
-placelink: http://staff.ustc.edu.cn/~xuhongli/int/
+placelink: https://int-ustc.github.io/index.html
 github: https://github.com/Fangjin98
 outlook: mailto:Fangjin98@outlook.com
 sspai: https://sspai.com/u/km1o497a/posts
