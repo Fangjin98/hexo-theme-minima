@@ -15,8 +15,9 @@ In my spare time, I write C# and Swift codes.  Hoping my powerlifting record can
 
 #menu
 menu:
-  Resume: /resume
+  About: /about
   Posts: /archives
+  CV: /pdf/resume.pdf
 
 #index/main page max show posts (in number)
 max_post: 3
