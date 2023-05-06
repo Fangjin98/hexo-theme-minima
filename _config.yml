@@ -1,19 +1,9 @@
-#title in header
 title: "Hello World."
 
-#main info
-
-#owner
 owner: "I am (Joey) Jin Fang"
-# email:
 info: "A PhD student, a coder, a powerlifting amateur..."
-#description
-desc: "My research interest lies in programmable network, in-network computing, and distributed training system.
-
-In my spare time, I write C# and Swift codes.  Hoping my powerlifting record can reach 1323 lbs  (891 lbs at 2022.10.1) during my Ph.D.
+desc: "My research interest lies in programmable network, in-network computing, and distributed training system. In my spare time, I write C# and Swift codes. I also publish articles in SSPai. Hope my powerlifting record can reach 1323 lbs  (891 lbs at 2022.10.1) during my Ph.D.
 "
-
-#menu
 menu:
   About: /about
   Posts: /archives
@@ -23,7 +13,6 @@ menu:
 max_post: 3
 
 # Colors use hex color without #
-# Theme color
 tcolor: 0FA0CE
 
 # Define path to user css
@@ -41,22 +30,17 @@ sspai: https://sspai.com/u/km1o497a/posts
 jike: https://m.okjike.com/users/835fc07f-a5e2-4762-936a-d17d0cf7bbfd
 rss: /atom.xml
 counter: false
+
 # Misc
 nanobar: /js/nanobar.min.js
 switch_light: 🌑
 switch_dark: ☀️
 
-# favicon
 favicon: /images/favicon.png
-# thumbnail
 # thumbnail: /images/thumbnail.jpg
 
 article:
   thumbnail: true
-
-# DISQUS comments (sign up to Disqus to get disqus_shortname)
-# disqus_enabled: false
-# disqus_shortname: https-adisaktijrs-github-io
 
 mathjax:
   enable: true
