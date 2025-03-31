@@ -6,32 +6,27 @@
   <div class="eight columns">
     <!-- Main information, edit it on _config.yml -->
     <h2 class="mb-2"><%= config.owner %></h2>
-    <p><%= config.info %></p>
-    <p><%= config.desc %></p>
+    <p><%- markdown(config.info) %></p>
+    <p><%- markdown(config.desc) %></p>
     <h4> <a href="<%= config.root %>about">See More</a></h4>
   </div>
 </div>
 
-<h3>Recent Posts</h3>
-
-<% site.posts.sort('date', 'desc').limit(theme.max_post).forEach(function(post){ %>
-<div class="row">
-  <div class="three columns left lit">
-    <p class="bottom"><%- full_date(post.date, 'll') %></p>
+<% if (site.data.news) { %>
+  <div class="news-list">
+    <% site.data.news.sort((a, b) => new Date(b.date) - new Date(a.date)).forEach(function(news) { %>
+      <div class="news-item">
+        <div class="news-date">
+          <%- full_date(news.date, 'll') %>
+        </div>
+        <p class="news-excerpt"><%- markdown(news.title) %></p> 
+        <% if (news.excerpt) { %>
+          <p class="news-excerpt"><%- news.excerpt %></p>
+        <% } %>
+      </div>
+    <% }) %>
   </div>
-  <div class="nine columns left mb-3">
-    <a href="<%- url_for(post.path) %>" >
-      <% if (post.title == "") { %>
-        no title
-      <% } else { %>
-        <%- post.title %>
-      <% } %>
-    </a>
-  </div>
-</div>
-<% }) %>
-
-<h4> <a href="<%= config.root %>archives">All Posts</a></h4>
+<% } %>
 
 <div class="row mt-2">
   <center>
