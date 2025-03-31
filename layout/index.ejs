@@ -13,6 +13,8 @@
 </div>
 
 <% if (site.data.news) { %>
+  <h3> Recent News </h3>
+  
   <div class="news-list">
     <% site.data.news.sort((a, b) => new Date(b.date) - new Date(a.date)).forEach(function(news) { %>
       <div class="news-item">
